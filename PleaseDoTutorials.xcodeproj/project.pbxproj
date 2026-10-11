@@ -12,6 +12,8 @@
 		147E9B58307B7914007C4EA5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 147E9B4F307B7914007C4EA5 /* Assets.xcassets */; };
 		147E9B59307B7914007C4EA5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147E9B50307B7914007C4EA5 /* ContentView.swift */; };
 		147E9B5A307B7914007C4EA5 /* PleaseDoTutorialsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147E9B51307B7914007C4EA5 /* PleaseDoTutorialsApp.swift */; };
+		147E9B5D307B80EC007C4EA5 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147E9B5C307B80EC007C4EA5 /* HomeView.swift */; };
+		147E9B5F307B8AB9007C4EA5 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147E9B5E307B8AB9007C4EA5 /* ListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +41,8 @@
 		147E9B4F307B7914007C4EA5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		147E9B50307B7914007C4EA5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		147E9B51307B7914007C4EA5 /* PleaseDoTutorialsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PleaseDoTutorialsApp.swift; sourceTree = "<group>"; };
+		147E9B5C307B80EC007C4EA5 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		147E9B5E307B8AB9007C4EA5 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -118,6 +122,8 @@
 		147E9B4E307B7914007C4EA5 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				147E9B5C307B80EC007C4EA5 /* HomeView.swift */,
+				147E9B5E307B8AB9007C4EA5 /* ListView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -273,6 +279,8 @@
 		147E9AF6307B6DD2007C4EA5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			files = (
+				147E9B5F307B8AB9007C4EA5 /* ListView.swift in Sources */,
+				147E9B5D307B80EC007C4EA5 /* HomeView.swift in Sources */,
 				147E9B59307B7914007C4EA5 /* ContentView.swift in Sources */,
 				147E9B5A307B7914007C4EA5 /* PleaseDoTutorialsApp.swift in Sources */,
 			);
